@@ -1,6 +1,8 @@
 /* eslint-disable react/no-unknown-property */
 import type { AppProps } from "next/app";
 
+import { SessionProvider } from "next-auth/react";
+
 import { globalStyles } from "@/styles/globals";
 
 import { Roboto } from "@next/font/google";
@@ -12,7 +14,10 @@ const roboto = Roboto({
 
 globalStyles();
 
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps },
+}: AppProps) {
   return (
     <div>
       <style jsx global>{`
@@ -20,7 +25,9 @@ export default function App({ Component, pageProps }: AppProps) {
           font-family: ${roboto.style.fontFamily};
         }
       `}</style>
-      <Component {...pageProps} />
+      <SessionProvider session={session}>
+        <Component {...pageProps} />
+      </SessionProvider>
     </div>
   );
 }
