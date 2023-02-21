@@ -6,7 +6,7 @@
 
 ## 📃 About
 
-Ignite call, é um site de agendamento que foi desenvolvido durante o curso ignite da trilha de ReactJS. O site é composto em 3 etapas, em que a primeira o usuário efetua o seu cadastro vinculando sua conta do google ao seu usuário, em seguida ele marca os seus dias/horas disponiveis da semana dia e no final, a partir da sua disponibilidade, agenda uma chamada que é criada através do google meet e enviada para sua agenda do google.
+Ignite call, é um site de agendamento que foi desenvolvido durante o curso ignite da trilha de ReactJS. O site é composto em 3 etapas, em que a primeira o usuário efetua o seu cadastro vinculando sua conta do google ao seu usuário, em seguida ele marca os seus dias/horas disponiveis da semana e no final, a partir da sua disponibilidade, agenda uma chamada que é criada através do google meet e enviada para sua agenda do google.
 
 ## 🎨 Layout
 
