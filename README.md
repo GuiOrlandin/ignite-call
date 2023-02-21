@@ -31,9 +31,9 @@ Ignite call, é um site de agendamento que foi desenvolvido durante o curso igni
 ## 💻 Getting started
 
 ```sh
-git clone https://github.com/GuiOrlandin/04-ignite-shop.git && cd
+git clone [https://github.com/GuiOrlandin/04-ignite-shop.git](https://github.com/GuiOrlandin/ignite-call.git) && cd
 
-04-ignite-shop
+ignite-call
 
 ```
 
