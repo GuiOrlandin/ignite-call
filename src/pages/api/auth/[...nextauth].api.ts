@@ -41,7 +41,7 @@ export function buildNextAuthOptions(
         if (
           !account?.scope?.includes("https://www.googleapis.com/auth/calendar")
         ) {
-          return "http://localhost:3000/register/connect-calendar/?error=permissions";
+          return "https://ignite-call-khaki-eight.vercel.app/register/connect-calendar/?error=permissions";
         }
         return true;
       },
